@@ -1,0 +1,19 @@
+header
+{
+    text-align:center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 8px;
+}
+
+h1
+{
+    font-family:Intro_Rust;
+}
+
+@font-face 
+{/*to define all the new fonts*/
+    font-family:"Intro_Rust";
+    src: url("font/Fonts/introrustg-base2line.otf") format('otf')
+}
