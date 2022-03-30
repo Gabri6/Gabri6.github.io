@@ -1,8 +1,8 @@
 header
 {
     text-align:center;
-    position: absolute;
-    background-color: rgb(166, 252, 255);
+    position: sticky;
+    background-color: rgb(131,135,255);
     width: 100vw;
     top: 0%;
     left: 0%;
@@ -11,6 +11,18 @@ header
 h1
 {
     font-family:Intro_Rust;
+}
+
+body
+{
+    padding-top:0%;
+    text-align: left;
+    margin-left: 0%;
+}
+
+p, bdo, table, blockquote, pre, img
+{
+    margin-left: 10px;
 }
 
 @font-face 
